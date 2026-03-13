@@ -1,0 +1,7 @@
+//Programa que pide un nombre al usuario y lo saluda
+PROCESO saludo
+ESCRIBIR "Escriba su nombre"
+LEER Nombre
+ESCRIBIR "."
+ESCRIBIR "Hola! ",nombre," bienvenid@"
+FINPROCESO
