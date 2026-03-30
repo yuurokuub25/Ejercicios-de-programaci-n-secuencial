@@ -1,0 +1,11 @@
+//Programa para hallar la hipotenusa de un triángulo dados sus catetos
+ALGORITMO hipotenusa
+    Escribir "Introduzca el valor del primer cateto:"
+    Leer cateto1
+    Escribir "Introduzca el valor del segundo cateto:"
+    Leer cateto2
+    // Cálculo de la hipotenusa
+    hipotenusa= RC(cateto1^2 + cateto2^2)
+  ESCRIBIR "."
+    Escribir "La hipotenusa del triángulo rectángulo es: ", hipotenusa
+FINALGORITMO
