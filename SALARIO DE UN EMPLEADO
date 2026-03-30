@@ -1,0 +1,22 @@
+//En una empresa se desea calcular el valo a pagar a un empleado
+//L empresa paga a traves de las siguientes condiciones
+//si gana mas o igual a un millon, debe pagarsele un recalco del 20%
+//si gana menos de 1 millon, debe pagarsele con un recargo del 30%
+
+ESCRIBIR "Programa de pago a un empleado"
+ESCRIBIR "Bienvenido"
+ESCRIBIR "."
+ESCRIBIR "."
+ESCRIBIR "Escriba su nombre"
+Leer nombre
+ESCRIBIR "Digite su salario"
+leer salario
+
+si salario >1000000 ENTONCES 
+   total = salario * 1.2
+   ESCRIBIR "El total a pagar sería ",total
+SINO
+   total= salario * 1.3
+FINSI
+
+//mi computador no puede escribir "mayor o igual que"
