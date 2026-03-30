@@ -1,0 +1,36 @@
+//programa que hace operaciones matematicas basicas con dos numeros
+PROCESO operaciones matematicas 
+    // Entrada de los dos números
+    Escribir "Introduce el primer número:"
+    Leer num1
+    Escribir "Introduce el segundo número:"
+    Leer num2
+
+    // Mostrar menú de opciones
+    Escribir "Selecciona la operación a realizar:"
+    Escribir "1 - Sumar"
+    Escribir "2 - Restar"
+    Escribir "3 - Multiplicar"
+    Escribir "4 - Dividir"
+    Leer opcion
+
+    // Realizar la operación según la opción elegida
+    Segun opcion hacer
+        caso 1:
+            resultado = num1 + num2
+            Escribir "El resultado de la suma es: ", resultado
+        caso 2:
+            resultado = num1 - num2
+            Escribir "El resultado de la resta es: ", resultado
+        caso 3:
+            resultado = num1 * num2
+            Escribir "El resultado de la multiplicación es: ", resultado
+        caso 4:
+            Si num2 <> 0 Entonces
+                resultado = num1 / num2
+                Escribir "El resultado de la división es: ", resultado
+            Sino
+                Escribir "Error: No se puede dividir entre cero."
+            FinSi
+    FinSegun
+FINPR
