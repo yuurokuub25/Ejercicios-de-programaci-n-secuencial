@@ -1,0 +1,10 @@
+Proceso Temperatura
+    Definir F, C Como Real
+    
+    Escribir "Ingrese la temperatura en grados Fahrenheit:"
+    Leer F
+    
+    C <- (F - 32) * 5 / 9
+    
+    Escribir "La temperatura en grados Celsius es: ", C
+FinProceso
