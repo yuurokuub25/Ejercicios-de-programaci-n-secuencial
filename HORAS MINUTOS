@@ -1,0 +1,11 @@
+Proceso HORAS_MINUTOS
+    Definir minutos, horas, resto Como Entero
+    
+    Escribir "Ingrese la cantidad de minutos:"
+    Leer minutos
+    
+    horas <- minutos / 60
+    resto <- minutos MOD 60
+    
+    Escribir minutos, " minutos son ", horas, " horas y ", resto, " minutos"
+FinProceso
