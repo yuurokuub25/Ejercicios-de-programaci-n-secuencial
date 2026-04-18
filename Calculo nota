@@ -1,0 +1,22 @@
+Algoritmo calculo_nota_algoritmos
+	Escribir "Ingrese la nota del primer examen:"
+	Leer nota_parcial_1
+	Escribir "ingrese la nota del segundo examen:"
+	Leer nota_parcial_2
+	Escribir "ingrese la nota del tercer examen:"
+	Leer nota_parcial_3
+	
+	Escribir "Ingrese la calificación de tu examen final:"
+	Leer examen_final
+	
+	Escribir "Ingrese la nota de tu trabajo final:"
+	Leer trabajo_final
+	
+	promedio_examenes <- (nota_examen_1 + nota_examen_2 + nota_examen_3) / 3
+	
+	//porcentajes (55%, 30% y 15%)
+	nota_definitiva <- (promedio_examenes * 0.55) + (examen_final * 0.30) + (trabajo_final * 0.15)
+	
+	Escribir "el promedio de sus examenes fue: ", promedio_examenes
+	Escribir "su calificación final definitiva es: ", nota_definitiva
+FinAlgoritmo
