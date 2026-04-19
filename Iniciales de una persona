@@ -1,0 +1,15 @@
+Algoritmo Iniciales
+	Escribir "Programa que indica las iniciales de una persona"
+    Escribir "Escribe tu nombre:"
+	Leer nombre_p
+	Escribir "Escriba su primer apellido:"
+	Leer apellido_1
+	Escribir "Escriba su segundo apellido:"
+	Leer apellido_2
+	
+	ini_1 <- Subcadena(nombre_p, 0, 0)
+	ini_2 <- Subcadena(apellido_1, 0, 0)
+	ini_3 <- Subcadena(apellido_2, 0, 0)
+	
+	Escribir "las iniciales de tu nombre completo son: ", ini_1, ini_2, ini_3
+FinAlgoritmo
