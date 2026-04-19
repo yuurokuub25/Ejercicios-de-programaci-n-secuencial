@@ -1,0 +1,13 @@
+Algoritmo tiempo_de_alcance_vehicular
+	Escribir "ingrese la velocidad del vehículo que va atrás (en km/h):"
+	Leer velocidad_rápido
+	Escribir "ingrese la velocidad del vehículo que va adelante (en km/h):"
+	Leer velocidad_lento
+	Escribir "distancia inicial que los separa (en km):"
+	Leer distancia_separación
+	
+	tiempo_horas <- distancia_separación / (velocidad_rápido - velocidad_lento)
+	tiempo_minutos <- tiempo_horas * 60
+	
+	Escribir "El vehículo más rápido alcanzará al otro en: ", tiempo_minutos, " minutos"
+FinAlgoritmo
