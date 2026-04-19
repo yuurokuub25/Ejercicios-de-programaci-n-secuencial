@@ -1,0 +1,16 @@
+Algoritmo intercambiar_valores_a_y_b
+	Escribir "Programa para intercambiar los valores de dos variables."
+	
+	Escribir "Ingrese para a:"
+	Leer valor_a
+	
+	Escribir "ahora, ingrese el valor para b:"
+	Leer valor_b
+	
+	c <- valor_a
+	valor_a <- valor_b
+	valor_b <- c
+	
+	Escribir "El valor de a pasar a ser: ", valor_a
+	Escribir "El valor de b pasa a ser", valor_b
+FinAlgoritmo
