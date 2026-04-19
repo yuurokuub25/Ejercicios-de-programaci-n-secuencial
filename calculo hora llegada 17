@@ -1,0 +1,15 @@
+Algoritmo cálculo_hora_llegada
+	Escribir "ingrese la hora de salida (Horas minutos segundos):"
+	Leer hora_s, min_s, seg_s
+	Escribir "ingresa la duración del viaje en segundos:"
+	Leer tiempo_viaje
+	
+	segundos_iniciales <- (hora_s * 3600) + (min_s * 60) + seg_s
+	segundos_finales <- segundos_iniciales + tiempo_viaje
+	
+	hora_llegada <- trunc(segundos_finales / 3600) MOD 24
+	min_llegada <- trunc((segundos_finales MOD 3600) / 60)
+	seg_llegada <- segundos_finales MOD 60
+	
+	Escribir "La hora estimada de llegada es: ", hora_llegada, ":", min_llegada, ":", seg_llegada
+FinAlgoritmo
