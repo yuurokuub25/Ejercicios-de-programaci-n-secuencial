@@ -1,0 +1,19 @@
+Algoritmo contador_de_monedas_euro
+	Escribir "ingrese cuántas monedas de 2 euros tiene:"
+	Leer monedas_2e
+	Escribir "ingrese cuántas monedas de 1 euro tiene:"
+	Leer monedas_1e
+	Escribir "ingrese cuántas monedas de 50 céntimos tiene:"
+	Leer monedas_50c
+	Escribir "ingrese cuántas monedas de 20 céntimos tiene:"
+	Leer monedas_20c
+	Escribir "ingrese cuántas monedas de 10 céntimos tiene:"
+	Leer monedas_10c
+	
+	total_en_céntimos <- (monedas_2e * 200) + (monedas_1e * 100) + (monedas_50c * 50) + (monedas_20c * 20) + (monedas_10c * 10)
+	
+	euros_finales <- trunc(total_en_céntimos / 100)
+	céntimos_restantes <- total_en_céntimos MOD 100
+	
+	Escribir "en total tiene: ", euros_finales, " euros y ", céntimos_restantes, " céntimos"
+FinAlgoritmo
