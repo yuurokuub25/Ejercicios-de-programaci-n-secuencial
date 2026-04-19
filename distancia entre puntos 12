@@ -1,0 +1,20 @@
+Algoritmo cálculo_distancia_puntos
+	Escribir "ingrese la coordenada x del primer punto (x1):"
+	Leer x_inicial
+	Escribir "ingrese la coordenada y del primer punto (y1):"
+	Leer y_inicial
+	
+	Escribir "ingresa la coordenada x del segundo punto (x2):"
+	Leer x_final
+	Escribir "ingresa la coordenada y del segundo punto (y2):"
+	Leer y_final
+	
+	// diferencia entre los puntos y elevar al cuadrado
+	diferencia_x <- (x_final - x_inicial)^2
+	diferencia_y <- (y_final - y_inicial)^2
+	
+	// suma los resultados y saca la raíz cuadrada (distancia euclidiana)
+	distancia_total <- rc(diferencia_x + diferencia_y)
+	
+	Escribir "la distancia calculada entre los dos puntos es: ", distancia_total
+FinAlgoritmo
