@@ -1,0 +1,16 @@
+Algoritmo cálculo_distancia_entre_números
+	Escribir "Ingrese el primer valor:"
+	Leer primer_número
+	
+	Escribir "Ingrese el segundo valor para comparar:"
+	Leer segundo_número
+	
+	diferencia <- (primer_número - segundo_número)
+	
+	// si el resultado es negativo, pasa a positivo
+	Si diferencia < 0 Entonces
+		diferencia <- diferencia * (-1)
+	FinSi
+	
+	Escribir "La distancia real entre los dos números ingresados es: ", diferencia
+FinAlgoritmo
