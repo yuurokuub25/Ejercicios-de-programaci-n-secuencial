@@ -1,0 +1,10 @@
+Algoritmo cálculo_de_raíces
+	Escribir "ingresa el número que quieres calcular:"
+	Leer número_usuario
+	
+	raíz_cuadrada <- rc(número_usuario)
+	raíz_cúbica <- número_usuario ^ (1/3)
+	
+	Escribir "la raíz cuadrada es: ", raíz_cuadrada
+	Escribir "la raíz cúbica es: ", raíz_cúbica
+FinAlgoritmo
