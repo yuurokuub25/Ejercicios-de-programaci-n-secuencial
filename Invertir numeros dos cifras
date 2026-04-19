@@ -1,0 +1,15 @@
+Algoritmo invertir_número_dos_cifras
+	Escribir "Ingrese un número que tenga dos cifras:"
+	Leer número_ingresado
+	
+	  Si número_ingresado > 99 o número_ingresado < 10 Entonces
+		Escribir "El número ingresado no es válido, debe ser de dos cifras."
+	   Sino
+		 decenas <- trunc(número_ingresado / 10)
+		 unidades <- número_ingresado MOD 10
+		
+		  resultado_invertido <- (unidades * 10) + decenas
+		
+		  Escribir "el número al revés es: ", resultado_invertido
+	FinSi
+FinAlgoritmo
